@@ -39,7 +39,7 @@ function init() {
     scene.add(light);
 
     var loader = new THREE.JSONLoader();
-    loader.load( "models/jib.js", function(geometry){
+    loader.load( "models/Mushroom.json", function(geometry){
         var material = new THREE.MeshLambertMaterial({color: 0x55B663});
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
